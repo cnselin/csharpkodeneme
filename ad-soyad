@@ -1,0 +1,17 @@
+using System;
+
+public class Deneme
+{
+
+    public static void Main(string[] args)
+    {
+        string ad = "Selin";
+        string soyad = "CAN";
+        int yas = 19;
+
+
+        Console.WriteLine("Ad: " + ad);
+        Console.WriteLine("Soyad: " + soyad);
+        Console.WriteLine("Yaş: " + yas);
+    }
+}

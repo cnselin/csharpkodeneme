@@ -1,0 +1,51 @@
+using System;
+
+public class Deneme
+{
+
+    public static void Main(string[] args)
+    {
+
+        int sonuc = 0;
+        Console.WriteLine("Hesap Makinesine Hoşgeldiniz!");
+        Console.WriteLine("Toplama işlemi için +");
+        Console.WriteLine("Çıkarma işlemi için -");
+        Console.WriteLine("Çarpma işlemi için *");
+        Console.WriteLine("Bölme işlemi için / giriniz.");
+        Console.Write("Yapmak istediğiniz işlemi seçin: ");
+        char secim = Convert.ToChar(Console.ReadLine());     //char türüne dönüştürüyor
+
+        Console.Write("1.değeri girin : ");     
+        int sayi1 = Convert.ToInt16(Console.ReadLine()); // alınan değeri 16bit tam sayıya dönüştürüyor
+        Console.Write("2.değeri girin : ");
+        int sayi2 = Convert.ToInt16(Console.ReadLine());
+
+
+        switch(secim)
+        {
+
+            case '+':
+                sonuc = sayi1 + sayi2;
+                Console.WriteLine("Toplama işleminin sonucu : {0}", sonuc);
+                break;
+            case '-':
+                sonuc = sayi1 - sayi2;
+                Console.WriteLine("Çıkarma işleminin sonucu : {0}", sonuc);
+                break;
+            case '*':
+                sonuc = sayi1 * sayi2;
+                Console.WriteLine("Çarpma işleminin sonucu : {0}", sonuc);
+                break;
+            case '/':
+                sonuc = sayi1 / sayi2;
+                Console.WriteLine("Bölme işleminin sonucu : {0}", sonuc);
+                break;
+
+
+
+        }
+
+
+
+    }
+}

@@ -1,0 +1,24 @@
+using System;
+
+public class Deneme
+{
+
+    public static void Main(string[] args)
+    {
+        int alan, yukseklik, taban;
+
+        taban = 30;
+        yukseklik = 5;
+
+        alan = (taban * yukseklik) / 2;
+
+        Console.WriteLine("Ucgenin alanı: " + alan);
+        
+
+
+
+        }
+
+
+
+    }

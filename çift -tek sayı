@@ -1,0 +1,27 @@
+using System;
+
+public class Deneme
+{
+
+    public static void Main(string[] args)
+    {
+        int sayi=0;
+
+        Console.Write("sayı giriniz:");
+        sayi = Convert.ToInt32(Console.ReadLine());
+
+
+        if(sayi%2==0)
+        {
+            Console.WriteLine("SAYI CİFT");
+        }
+
+        else
+        {
+            Console.WriteLine("SAYI TEK");
+
+        }
+
+        }
+
+    }
